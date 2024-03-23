@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace email
 {
     class Program
@@ -10,20 +12,24 @@ namespace email
         string koncovka1 = ".com";
         string koncovka2 = ".sk";
         string koncovka3 = ".cz";
+        int delka = mail.Length;
         bool isCom = mail.EndsWith(koncovka1);
         bool isSk = mail.EndsWith(koncovka2);
         bool isCz = mail.EndsWith(koncovka3);
         if (isCom)
         {
-            Console.WriteLine("Mezinarodni Email");
+            Console.WriteLine("International Email");
+            Console.WriteLine(delka + " Symbols Long");
         }
         else if (isSk)
         {
             Console.WriteLine("Slovensky Email");
+            Console.WriteLine("Dĺžka " + delka + " symbolov");
         }
         else if (isCz)
         {
             Console.WriteLine("Cesky Email");
+            Console.WriteLine(delka + " Symbolu");
         }
         else
         {
