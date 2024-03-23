@@ -13,10 +13,13 @@ namespace email
         string koncovka2 = ".sk";
         string koncovka3 = ".cz";
         int delka = mail.Length;
+        bool ContainsAt = mail.Contains("@");
         bool isCom = mail.EndsWith(koncovka1);
         bool isSk = mail.EndsWith(koncovka2);
         bool isCz = mail.EndsWith(koncovka3);
-        if (isCom)
+        if (ContainsAt)
+        {
+            if (isCom)
         {
             Console.WriteLine("International Email");
             Console.WriteLine(delka + " Symbols Long");
@@ -31,11 +34,15 @@ namespace email
             Console.WriteLine("Cesky Email");
             Console.WriteLine(delka + " Symbolu");
         }
+        }       
         else
         {
             Console.WriteLine("Neplatny vstup");      
         }
+        
         Thread.Sleep(5000);
+
+
         Console.ReadKey();
 
         }
