@@ -35,6 +35,7 @@ namespace email
         {
             Console.WriteLine("Neplatny vstup");      
         }
+        Thread.Sleep(5000);
         Console.ReadKey();
 
         }
