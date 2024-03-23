@@ -1,0 +1,14 @@
+c:\Users\Bobes\Documents\GitHub\Email-Check-App\bin\Debug\net8.0\Email-Check-App.exe
+c:\Users\Bobes\Documents\GitHub\Email-Check-App\bin\Debug\net8.0\Email-Check-App.deps.json
+c:\Users\Bobes\Documents\GitHub\Email-Check-App\bin\Debug\net8.0\Email-Check-App.runtimeconfig.json
+c:\Users\Bobes\Documents\GitHub\Email-Check-App\bin\Debug\net8.0\Email-Check-App.dll
+c:\Users\Bobes\Documents\GitHub\Email-Check-App\bin\Debug\net8.0\Email-Check-App.pdb
+c:\Users\Bobes\Documents\GitHub\Email-Check-App\obj\Debug\net8.0\Email-Check-App.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Bobes\Documents\GitHub\Email-Check-App\obj\Debug\net8.0\Email-Check-App.AssemblyInfoInputs.cache
+c:\Users\Bobes\Documents\GitHub\Email-Check-App\obj\Debug\net8.0\Email-Check-App.AssemblyInfo.cs
+c:\Users\Bobes\Documents\GitHub\Email-Check-App\obj\Debug\net8.0\Email-Check-App.csproj.CoreCompileInputs.cache
+c:\Users\Bobes\Documents\GitHub\Email-Check-App\obj\Debug\net8.0\Email-Check-App.dll
+c:\Users\Bobes\Documents\GitHub\Email-Check-App\obj\Debug\net8.0\refint\Email-Check-App.dll
+c:\Users\Bobes\Documents\GitHub\Email-Check-App\obj\Debug\net8.0\Email-Check-App.pdb
+c:\Users\Bobes\Documents\GitHub\Email-Check-App\obj\Debug\net8.0\Email-Check-App.genruntimeconfig.cache
+c:\Users\Bobes\Documents\GitHub\Email-Check-App\obj\Debug\net8.0\ref\Email-Check-App.dll
