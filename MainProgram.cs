@@ -6,18 +6,18 @@ namespace email
     {
         static void Main(string[] args)
         {
-        Console.WriteLine("Enter your email address: ");
+        Console.WriteLine("Enter your email address: "); //Vstup emailu
         string mail = Console.ReadLine();
-        mail.Trim();
-        string koncovka1 = ".com";
+        mail.Trim(); // Odstraneni mezery
+        string koncovka1 = ".com"; //declarovani koncovky emailu
         string koncovka2 = ".sk";
         string koncovka3 = ".cz";
         int delka = mail.Length;
-        bool ContainsAt = mail.Contains("@");
-        bool isCom = mail.EndsWith(koncovka1);
+        bool ContainsAt = mail.Contains("@"); //kontrola zda obsahuje zavinac
+        bool isCom = mail.EndsWith(koncovka1); //Zjisti na kterou koncovku email konci
         bool isSk = mail.EndsWith(koncovka2);
         bool isCz = mail.EndsWith(koncovka3);
-        if (ContainsAt)
+        if (ContainsAt) //Pokud obsahuje zavinac, kod bude pokracovat
         {
             if (isCom)
         {
@@ -35,12 +35,12 @@ namespace email
             Console.WriteLine(delka + " Symbolu");
         }
         }       
-        else
+        else //Pokud neobsahuje zavinac, kod skonci
         {
             Console.WriteLine("Neplatny vstup");      
         }
         
-        Thread.Sleep(5000);
+        Thread.Sleep(5000); //Zpozdeni aby clovek stihl precist vysledek
 
 
         Console.ReadKey();
