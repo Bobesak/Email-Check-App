@@ -12,3 +12,4 @@ c:\Users\Bobes\Documents\GitHub\Email-Check-App\obj\Debug\net8.0\refint\Email-Ch
 c:\Users\Bobes\Documents\GitHub\Email-Check-App\obj\Debug\net8.0\Email-Check-App.pdb
 c:\Users\Bobes\Documents\GitHub\Email-Check-App\obj\Debug\net8.0\Email-Check-App.genruntimeconfig.cache
 c:\Users\Bobes\Documents\GitHub\Email-Check-App\obj\Debug\net8.0\ref\Email-Check-App.dll
+C:\Users\Bobes\Documents\GitHub\Email-Check-App\obj\Debug\net8.0\Email-Check-App.sourcelink.json
