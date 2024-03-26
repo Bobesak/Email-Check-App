@@ -18,27 +18,29 @@ namespace email
         if (ContainsAt) //Pokud obsahuje zavinac, kod bude pokracovat
         {
             if (isCom)
-        {
-            Console.WriteLine("International Email");
-            Console.WriteLine(delka + " Symbols Long");
-        }
-        else if (isSk)
-        {
-            Console.WriteLine("Slovensky Email");
-            Console.WriteLine("Dĺžka " + delka + " symbolov");
-        }
-        else if (isCz)
-        {
-            Console.WriteLine("Cesky Email");
-            Console.WriteLine(delka + " Symbolu");
-        }
+            {
+                Console.WriteLine("International Email");
+                Console.WriteLine(delka + " Symbols Long");
+            }
+            
+            else if (isSk)
+            {
+                Console.WriteLine("Slovensky Email");
+                Console.WriteLine("Dĺžka " + delka + " symbolov");
+            }
+            
+            else if (isCz)
+            {
+                Console.WriteLine("Cesky Email");
+                Console.WriteLine(delka + " Symbolu");
+            }
         }       
         else //Pokud neobsahuje zavinac, kod skonci
         {
             Console.WriteLine("Neplatny vstup");      
         }
         
-        Thread.Sleep(5000); //Zpozdeni aby clovek stihl precist vysledek
+        Thread.Sleep(2500); //Zpozdeni aby clovek stihl precist vysledek
 
 
         Console.ReadKey();
